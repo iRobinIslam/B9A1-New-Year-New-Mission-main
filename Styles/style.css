@@ -262,7 +262,7 @@
 /* footer style */
 .foot {
   background: #070211;
-  width: 1600px;
+  width: 1500px;
   height: 609px;
 }
 
@@ -272,7 +272,10 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px;
+  position: relative;
+  top: 120px;
+  left: 7%;
 }
 .telephone {
   color: #fff;
@@ -280,32 +283,45 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px;
+  position: relative;
+  left: 79%;
 }
 .website {
   color: #fff;
   font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
+  font-size: medium;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px;
+  position: relative;
+  top: -30px;
+  left: 80%;
 }
 
 hr {
   background: rgba(255, 255, 255, 0.15);
   width: 1320px;
-  height: 1px;
 }
 
 small {
   color: #fff;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 
 .social-icons {
-  align-items: center;
+  position: relative;
+  left: 43%;
+}
+
+.reserved {
+  position: relative;
+  top: 50px;
+  left: 7%;
+}
+.unsubscribe {
+  position: relative;
+  top: 50px;
+  left: 64%;
 }
