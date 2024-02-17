@@ -64,12 +64,14 @@
 
 /* welcome to party section style */
 .party {
-  background-image: url('../resources/Vectorrr.png');
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url('../resources/Vectorrr.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 1320px;
   height: 600px;
-  margin: 50px 100px 0px 100px;
+  margin: 50px 100px 80px 100px;
+  border-radius: 5px;
 }
 
 .party-title {
@@ -78,6 +80,8 @@
   font-size: 64px;
   font-weight: 900;
   letter-spacing: 7.04px;
+  padding: 130px 0px 0px 100px;
+  margin: 0px;
 }
 
 .party-description {
@@ -85,4 +89,99 @@
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
+  padding: 20px 0px 0px 100px;
+  margin: 0px;
+}
+
+.btn-primary {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: none;
+  border: 0;
+  padding: 100px 800px 0px 130px;
+}
+
+/* Place, Date & Time style */
+.event-banner {
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 482px;
+  margin: 0 100px 80px 100px;
+  border-radius: 16px;
+}
+.place {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.date {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.time {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+/* Our Awesome Portfolio style */
+
+.produtct-greeting {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.produtct-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-left: 40px;
+}
+.produtct-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 40px;
+}
+
+.product-photo {
+  width: 424px;
+  height: 450px;
+  display: flex;
+  margin-left: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-pic-1,
+.product-pic-2 {
+  display: flex;
+}
+
+.image {
+  width: 424px;
+  height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  margin-right: 40px;
 }
