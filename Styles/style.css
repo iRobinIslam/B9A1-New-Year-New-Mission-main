@@ -1,5 +1,3 @@
-/* common shared styles */
-
 /* header section style */
 .banner-container {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -144,6 +142,7 @@
   top: 45px;
   left: 45%;
 }
+
 /* Our Awesome Portfolio style */
 
 .produtct-greeting {
@@ -270,7 +269,6 @@
   color: #fff;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 40px;
   position: relative;
@@ -281,7 +279,6 @@
   color: #fff;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 40px;
   position: relative;
